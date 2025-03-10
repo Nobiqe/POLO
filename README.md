@@ -8,8 +8,8 @@ I embarked on this project with the goal of creating an efficient ID card detect
 
 ## Dataset
 The dataset used for training and validation was a custom combination of two publicly available datasets, both focused on identity documents:
-- **MIDV-500 Dataset**: A dataset containing 500 images of identity documents (e.g., ID cards, passports) captured under various real-world conditions, such as different lighting, angles, and backgrounds. This dataset provided a diverse set of examples for robust training. [(Dataset Link)](https://github.com/fcakyon/midv-500)
-- **MIDV-2019 Dataset**: An earlier dataset with images of identity documents, similar in nature to MIDV-500 but with its own set of variations in document types and capture conditions. [(Dataset Link)](https://github.com/fcakyon/midv-2019)
+- **MIDV-500 Dataset**: A dataset containing 500 images of identity documents (e.g., ID cards, passports) captured under various real-world conditions, such as different lighting, angles, and backgrounds. This dataset provided a diverse set of examples for robust training. [(Dataset Link)](https://paperswithcode.com/dataset/midv-500)
+- **MIDV-2019 Dataset**: An earlier dataset with images of identity documents, similar in nature to MIDV-500 but with its own set of variations in document types and capture conditions. [(Dataset Link)](https://paperswithcode.com/dataset/midv-2019)
 - **Combination Process**: I merged the MIDV-500 and MIDV-2019 datasets by standardizing their annotations into a YOLO-compatible bounding box format. After combining, I split the data into training and validation sets, resulting in 16,552 training images and 4,046 validation images. The dataset contains a single class (`id_card`) with a confidence score of 1.0. The images were organized into separate training and validation sets to ensure proper evaluation.
 
 ## fine-tuning Process
