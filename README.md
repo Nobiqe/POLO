@@ -81,7 +81,7 @@ The dataset used for training and validation was a custom combination of two pub
 
 
   <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/b177f104-c1ed-4743-aab2-cac6ba623f32" alt="val_batch1_pred" width="400">
-  <img src="https://github.com/user-attachments/assets/07b89eb3-4460-499b-95a6-b72f85aa00bb" alt="val_batch2_labels" width="400">
+  <img src="https://github.com/user-attachments/assets/b177f104-c1ed-4743-aab2-cac6ba623f32" alt="val_batch1_pred" width="350">
+  <img src="https://github.com/user-attachments/assets/07b89eb3-4460-499b-95a6-b72f85aa00bb" alt="val_batch2_labels" width="350">
 </div>
 
