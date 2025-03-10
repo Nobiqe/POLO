@@ -81,8 +81,8 @@ The dataset used for training and validation was a custom combination of two pub
 
 
 
-## Inference Results
-Visual examples of ID card detection results from fine-tuning:
+## Results
+
 
 | POLOv8          | POLOv11          |
 |-----------------|------------------|
