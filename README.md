@@ -80,8 +80,10 @@ The dataset used for training and validation was a custom combination of two pub
   ```
 
 
-  <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/b177f104-c1ed-4743-aab2-cac6ba623f32" alt="val_batch1_pred" width="350">
-  <img src="https://github.com/user-attachments/assets/07b89eb3-4460-499b-95a6-b72f85aa00bb" alt="val_batch2_labels" width="350">
-</div>
 
+## Inference Results
+Visual examples of ID card detection results from fine-tuning:
+
+| POLOv8          | POLOv11          |
+|-----------------|------------------|
+| ![POLOv8 Results](https://github.com/user-attachments/assets/4eaa2e17-7c5a-4b80-96db-041f4ec24a46) | ![POLOv11 Results](https://github.com/user-attachments/assets/d16d9e7f-9326-4526-b699-05376487591a) |
